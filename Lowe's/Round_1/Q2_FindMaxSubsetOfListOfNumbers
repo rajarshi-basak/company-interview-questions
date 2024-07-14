@@ -1,0 +1,24 @@
+list_num = [-5, 1, 2, 3, 5, -7, 8, 9]
+
+def find_sum(s):
+    result = 0
+    for i in s:
+        result += i
+    return result
+
+def find_max_sublist(s):
+    i = j = 0
+    sub_list = []
+    result = []
+    max_sum = -99999999
+    while i < len(s):
+        j = i
+        while j < len(s):
+            sub_list = s[i:j+1]
+            new_sum = find_sum(sub_list)
+            max_sum = max(new_sum, max_sum)
+            j += 1
+        i += 1
+    return max_sum
+    
+print(find_max_sublist(list_num))
