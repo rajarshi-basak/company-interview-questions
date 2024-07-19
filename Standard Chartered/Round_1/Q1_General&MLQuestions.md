@@ -22,3 +22,9 @@ Please tell me a bit about your background and keep it to about 5 minutes.
 5. Do you know how Named Entity Recognition is done?
 6. What is the unerlying algorithm and concept based on which simple NER systems are built?
 7. If there is a training dataset with non-linear trend and you can fit either a decision tree or a neural network with no activation function, which one will you use? Why?
+
+### Large Language Models
+
+8. What is the one breakthorugh idea that LLM's use that makes it what it is?
+9. Why are LLMs better than RNNs?
+10. What is the key idea in the tranformer architecture?
